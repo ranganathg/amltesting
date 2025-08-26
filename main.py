@@ -18,6 +18,8 @@ def main():
     parser.add_argument("--learning_rate", required=False, default=0.1, type=float)
     parser.add_argument("--registered_model_name", type=str, help="model name")
     args = parser.parse_args()
+
+    #fsad
    
     # Start Logging
     mlflow.start_run()
